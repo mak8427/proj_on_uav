@@ -500,10 +500,10 @@
 		},
 		{
 			"attr_id": "iq",
-			"adj": 2,
+			"adj": 3,
 			"calc": {
-				"value": 12,
-				"points": 40
+				"value": 13,
+				"points": 60
 			}
 		},
 		{
@@ -518,7 +518,7 @@
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -526,7 +526,7 @@
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -534,7 +534,7 @@
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -542,7 +542,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -550,7 +550,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -558,7 +558,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -566,7 +566,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 12,
+				"value": 13,
 				"points": 0
 			}
 		},
@@ -733,10 +733,10 @@
 			"id": "t1mhRENcDLiLleGlJ",
 			"name": "FanBoy",
 			"notes": "You just want to tell everybody how cool this person is ",
-			"cr": 15,
+			"cr": 12,
 			"base_points": -10,
 			"calc": {
-				"points": -5
+				"points": -10
 			}
 		},
 		{
@@ -809,12 +809,12 @@
 					"points": 48,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 8
 					},
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "IQ+2"
 					}
 				},
@@ -833,13 +833,13 @@
 					"points": 3,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 2
 					},
 					"calc": {
-						"level": 16,
-						"rsl": "IQ+4"
+						"level": 18,
+						"rsl": "IQ+5"
 					}
 				},
 				{
@@ -857,13 +857,13 @@
 					"points": 3,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 2
 					},
 					"calc": {
-						"level": 16,
-						"rsl": "IQ+4"
+						"level": 18,
+						"rsl": "IQ+5"
 					}
 				},
 				{
@@ -881,12 +881,12 @@
 					"points": 2,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 2
 					},
 					"calc": {
-						"level": 17,
+						"level": 18,
 						"rsl": "IQ+5"
 					}
 				},
@@ -896,7 +896,7 @@
 					"difficulty": "will/a",
 					"points": 2,
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "Will+0"
 					}
 				},
@@ -915,13 +915,13 @@
 					"points": 3,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 2
 					},
 					"calc": {
-						"level": 16,
-						"rsl": "IQ+4"
+						"level": 18,
+						"rsl": "IQ+5"
 					}
 				},
 				{
@@ -944,12 +944,12 @@
 					"defaulted_from": {
 						"type": "per",
 						"modifier": -6,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
 					},
 					"calc": {
-						"level": 15,
+						"level": 16,
 						"rsl": "IQ+3"
 					}
 				},
@@ -976,12 +976,12 @@
 					"defaulted_from": {
 						"type": "will",
 						"modifier": -6,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
 					},
 					"calc": {
-						"level": 15,
+						"level": 16,
 						"rsl": "IQ+3"
 					}
 				},
@@ -1011,12 +1011,12 @@
 					"points": 16,
 					"defaulted_from": {
 						"type": "iq",
-						"level": 12,
-						"adjusted_level": 12,
+						"level": 13,
+						"adjusted_level": 13,
 						"points": 8
 					},
 					"calc": {
-						"level": 16,
+						"level": 17,
 						"rsl": "IQ+4"
 					}
 				}
@@ -1045,12 +1045,12 @@
 					"defaulted_from": {
 						"type": "iq",
 						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
 					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+0"
 					}
 				},
@@ -1080,9 +1080,9 @@
 					"defaulted_from": {
 						"type": "iq",
 						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
 					},
 					"calc": {
 						"level": 12,
@@ -1099,7 +1099,7 @@
 					"difficulty": "iq/a",
 					"points": 2,
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+0"
 					}
 				},
@@ -1130,12 +1130,12 @@
 					"defaulted_from": {
 						"type": "per",
 						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
 					},
 					"calc": {
-						"level": 15,
+						"level": 16,
 						"rsl": "Per+3"
 					}
 				},
@@ -1159,12 +1159,12 @@
 					"defaulted_from": {
 						"type": "iq",
 						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
 					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+0"
 					}
 				},
@@ -1193,12 +1193,12 @@
 					"defaulted_from": {
 						"type": "iq",
 						"modifier": -6,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
 					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+0"
 					}
 				},
@@ -1215,7 +1215,7 @@
 					"tech_level": "3",
 					"points": 8,
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+0"
 					}
 				}
@@ -1256,12 +1256,12 @@
 			"defaulted_from": {
 				"type": "iq",
 				"modifier": -6,
-				"level": 6,
-				"adjusted_level": 6,
-				"points": -6
+				"level": 7,
+				"adjusted_level": 7,
+				"points": -7
 			},
 			"calc": {
-				"level": 12,
+				"level": 13,
 				"rsl": "IQ+0"
 			}
 		}
@@ -1392,7 +1392,7 @@
 		}
 	],
 	"created_date": "2024-10-23T11:35:09+02:00",
-	"modified_date": "2024-11-16T18:54:13+01:00",
+	"modified_date": "2024-11-16T22:20:08+01:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
