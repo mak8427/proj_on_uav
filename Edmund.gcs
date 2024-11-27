@@ -280,7 +280,7 @@
 				"name": "Mana",
 				"full_name": "Mana",
 				"attribute_base": "0",
-				"cost_per_point": 2.7,
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "",
@@ -613,7 +613,7 @@
 			"calc": {
 				"value": 10,
 				"current": 10,
-				"points": 27
+				"points": 20
 			}
 		}
 	],
@@ -2555,7 +2555,7 @@
 		}
 	],
 	"created_date": "2024-05-20T20:30:02+02:00",
-	"modified_date": "2024-11-19T17:12:18+01:00",
+	"modified_date": "2024-11-26T16:40:14+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",

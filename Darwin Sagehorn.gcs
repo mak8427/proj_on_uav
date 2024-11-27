@@ -1,9 +1,12 @@
 {
-	"type": "character",
-	"version": 4,
-	"id": "0f8347ec-8278-4581-a090-1643dedfbdf4",
-	"total_points": 150,
+	"version": 5,
+	"id": "AfOOUvSY6-OOiJ9Jn",
+	"total_points": 160,
 	"points_record": [
+		{
+			"when": "2024-11-26T16:41:24+01:00",
+			"points": 10
+		},
 		{
 			"when": "2024-10-23T16:57:18+02:00",
 			"points": 150,
@@ -276,7 +279,7 @@
 				"name": "Mana",
 				"full_name": "Mana",
 				"attribute_base": "0",
-				"cost_per_point": 2.7,
+				"cost_per_point": 2,
 				"thresholds": [
 					{
 						"state": "",
@@ -499,10 +502,10 @@
 		},
 		{
 			"attr_id": "iq",
-			"adj": 1,
+			"adj": 2,
 			"calc": {
-				"value": 11,
-				"points": 20
+				"value": 12,
+				"points": 40
 			}
 		},
 		{
@@ -517,7 +520,7 @@
 			"attr_id": "will",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -525,7 +528,7 @@
 			"attr_id": "fright_check",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -533,7 +536,7 @@
 			"attr_id": "per",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -541,7 +544,7 @@
 			"attr_id": "vision",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -549,7 +552,7 @@
 			"attr_id": "hearing",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -557,7 +560,7 @@
 			"attr_id": "taste_smell",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -565,7 +568,7 @@
 			"attr_id": "touch",
 			"adj": 0,
 			"calc": {
-				"value": 11,
+				"value": 12,
 				"points": 0
 			}
 		},
@@ -609,20 +612,18 @@
 			"calc": {
 				"value": 10,
 				"current": 10,
-				"points": 27
+				"points": 20
 			}
 		}
 	],
 	"traits": [
 		{
-			"id": "471e1a57-9a1e-4ddd-ab72-e22cdedf96a8",
-			"type": "trait",
+			"id": "tSEXiNuwdnrjTBqSD",
 			"name": "Natural Attacks",
 			"reference": "B271",
 			"weapons": [
 				{
-					"id": "77d091b1-3479-4d90-b6b2-b57111740995",
-					"type": "melee_weapon",
+					"id": "wHrM4Jkni-3otseOQ",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -645,8 +646,7 @@
 					}
 				},
 				{
-					"id": "e594e2fa-80ee-442e-a0d0-b5e9172e7482",
-					"type": "melee_weapon",
+					"id": "wikG1_bY3td4skBOC",
 					"damage": {
 						"type": "cr",
 						"st": "thr",
@@ -679,8 +679,7 @@
 					}
 				},
 				{
-					"id": "33dc9cdc-bf0f-4790-a08c-6030ab995d0a",
-					"type": "melee_weapon",
+					"id": "w5wF0UouFOnG2xiag",
 					"damage": {
 						"type": "cr",
 						"st": "thr"
@@ -718,8 +717,7 @@
 			}
 		},
 		{
-			"id": "5ab34d54-dd72-4c9d-850b-e5bf98da5d8b",
-			"type": "trait",
+			"id": "tI-27PNl7tCf0KTVj",
 			"name": "Code of Honor (Chivalry)",
 			"reference": "B127",
 			"notes": "Protect any lady, and anyone weaker than yourself. Never break your word. Never ignore an insult to yourself, a lady, your liege-lord, or your faith; insults may only be wiped out by an apology or a duel (not necessarily to the death!). Never take advantage of an opponent in any way; weapons and circumstances must be equal (even in open war if the foe is also noble and chivalrous). Accept any challenge to arms from anyone of greater or equal rank.",
@@ -733,15 +731,13 @@
 			}
 		},
 		{
-			"id": "fe08815a-f085-4a0f-ac11-c423e8bf521e",
-			"type": "trait",
+			"id": "tuHiFR_iQDWzPtYF_",
 			"name": "Charisma",
 			"reference": "B41",
 			"tags": [
 				"Advantage",
 				"Mental"
 			],
-			"levels": 1,
 			"points_per_level": 5,
 			"features": [
 				{
@@ -798,6 +794,7 @@
 				}
 			],
 			"can_level": true,
+			"levels": 1,
 			"calc": {
 				"points": 5
 			}
@@ -805,12 +802,11 @@
 	],
 	"skills": [
 		{
-			"id": "bba2c117-0150-4630-9e1c-0bb69fb6fdba",
-			"type": "skill_container",
+			"id": "SOm36tSa2zstZgFjt",
+			"name": "General Skills",
 			"children": [
 				{
-					"id": "80ea2366-4363-4aeb-91fd-d1b73778c7c0",
-					"type": "skill",
+					"id": "s-kejVyt5ucXdKXkX",
 					"name": "Intimidation",
 					"reference": "Lite15",
 					"tags": [
@@ -820,28 +816,27 @@
 						"Street"
 					],
 					"difficulty": "will/a",
-					"points": 4,
-					"defaulted_from": {
-						"type": "per",
-						"modifier": -5,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
 					"defaults": [
 						{
 							"type": "per",
 							"modifier": -5
 						}
 					],
+					"points": 4,
+					"defaulted_from": {
+						"type": "per",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "Will+1"
 					}
 				},
 				{
-					"id": "878ce73a-0cd2-4f7a-9485-269691940450",
-					"type": "skill",
+					"id": "sBsYOCWVFKHqnAnzN",
 					"name": "Leadership",
 					"reference": "Lite15",
 					"tags": [
@@ -849,28 +844,27 @@
 						"Social"
 					],
 					"difficulty": "iq/a",
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
 					"defaults": [
 						{
 							"type": "iq",
 							"modifier": -5
 						}
 					],
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+1"
 					}
 				},
 				{
-					"id": "090fe8e9-9f05-474f-9c82-e938b0c4c91a",
-					"type": "skill",
+					"id": "s8DbivqrwfGw52hNU",
 					"name": "Wrestling",
 					"reference": "B228",
 					"tags": [
@@ -886,8 +880,7 @@
 					}
 				},
 				{
-					"id": "538183a0-a7ed-4375-8ffd-cebb5d9519e4",
-					"type": "skill",
+					"id": "sP5OSjKk2YV-BbDrf",
 					"name": "Public Speaking",
 					"reference": "Lite15",
 					"tags": [
@@ -896,58 +889,56 @@
 						"Social"
 					],
 					"difficulty": "iq/a",
-					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
 					"defaults": [
 						{
 							"type": "iq",
 							"modifier": -5
 						}
 					],
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+1"
 					}
 				},
 				{
-					"id": "e5e4bb06-21ef-4dc7-aa5a-ac5e52168f64",
-					"type": "skill",
+					"id": "sKm5s_fUJLxBzOwJr",
 					"name": "Magical Lore ",
 					"reference": "B217",
 					"tags": [
 						"Scholarly",
 						"Spy"
 					],
-					"tech_level": "3",
 					"difficulty": "iq/a",
-					"points": 4,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 6,
-						"adjusted_level": 6,
-						"points": -6
-					},
 					"defaults": [
 						{
 							"type": "iq",
 							"modifier": -5
 						}
 					],
+					"tech_level": "3",
+					"points": 4,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+1"
 					}
 				},
 				{
-					"id": "79709240-c76b-492e-b41f-5b72dbef7e60",
-					"type": "skill",
+					"id": "s_ueeHSb302v_vvcY",
 					"name": "Alchemy",
 					"reference": "B174",
 					"tags": [
@@ -955,17 +946,16 @@
 						"Natural Science",
 						"Occult"
 					],
-					"tech_level": "3",
 					"difficulty": "iq/vh",
+					"tech_level": "3",
 					"points": 8,
 					"calc": {
-						"level": 11,
+						"level": 12,
 						"rsl": "IQ+0"
 					}
 				},
 				{
-					"id": "28c8a38d-748e-4d06-a068-40f34ec7bca5",
-					"type": "skill",
+					"id": "sUvC6f-BJzQ0_pTlk",
 					"name": "Speed-Reading",
 					"reference": "B222",
 					"tags": [
@@ -974,24 +964,20 @@
 					"difficulty": "iq/a",
 					"points": 4,
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+1"
 					}
 				}
-			],
-			"open": true,
-			"name": "General Skills"
+			]
 		},
 		{
-			"id": "f0c78109-4979-4776-b56d-9d927e693a15",
-			"type": "skill_container",
+			"id": "SFKDC55vt6dJCRLgL",
+			"name": "Magic",
 			"children": [
 				{
-					"id": "9c99fb87-9298-4c5d-831d-3d107b43f00c",
-					"type": "skill",
+					"id": "sfa1xX8CjY6IQcL3s",
 					"name": "Force Magic School ",
 					"difficulty": "iq/w",
-					"points": 48,
 					"features": [
 						{
 							"type": "skill_point_bonus",
@@ -1003,14 +989,14 @@
 							"per_level": true
 						}
 					],
+					"points": 48,
 					"calc": {
-						"level": 13,
+						"level": 14,
 						"rsl": "IQ+2"
 					}
 				},
 				{
-					"id": "db3c9128-0cd8-43b8-ba4a-9461cfa394e5",
-					"type": "skill",
+					"id": "sL71B1RUHeKCYDkW6",
 					"name": "Force Armor",
 					"tags": [
 						"Force Magic"
@@ -1018,13 +1004,12 @@
 					"difficulty": "iq/a",
 					"points": 7,
 					"calc": {
-						"level": 16,
+						"level": 17,
 						"rsl": "IQ+5"
 					}
 				},
 				{
-					"id": "4350b9f0-b2cb-472f-8de0-beed709dd4ae",
-					"type": "skill",
+					"id": "sSiXaSmDNiVKaKmLB",
 					"name": "Protect Weapon (Weapon Skill)",
 					"tags": [
 						"Force Magic"
@@ -1032,26 +1017,24 @@
 					"difficulty": "iq/a",
 					"points": 4,
 					"calc": {
-						"level": 15,
+						"level": 16,
 						"rsl": "IQ+4"
 					}
 				},
 				{
-					"id": "7101b4af-cd62-4647-89ac-88b1625b57da",
-					"type": "skill",
+					"id": "sdPTLS7ifGjb656VY",
 					"name": "Force Missile",
 					"tags": [
 						"Force Magic"
 					],
 					"difficulty": "iq/a",
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "IQ+3"
 					}
 				},
 				{
-					"id": "898fa7cc-e076-4629-9f82-a31f3da964ce",
-					"type": "skill",
+					"id": "s74J0WR82YLKe0htx",
 					"name": "Mana Regeneration",
 					"reference": "B187",
 					"tags": [
@@ -1060,42 +1043,33 @@
 						"Spy"
 					],
 					"difficulty": "iq/h",
-					"points": 16,
-					"defaulted_from": {
-						"type": "per",
-						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
 					"defaults": [
 						{
 							"type": "per",
 							"modifier": -6
 						}
 					],
+					"points": 16,
+					"defaulted_from": {
+						"type": "per",
+						"modifier": -6,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "IQ+3"
 					}
 				},
 				{
-					"id": "291caaf5-44b8-449c-8d0c-a53c5b9773af",
-					"type": "skill",
+					"id": "smFgEeJgdGQR8xYfY",
 					"name": "Mana Manipulation",
 					"reference": "B207",
 					"tags": [
 						"Esoteric"
 					],
 					"difficulty": "iq/h",
-					"points": 16,
-					"defaulted_from": {
-						"type": "will",
-						"modifier": -6,
-						"level": 5,
-						"adjusted_level": 5,
-						"points": -5
-					},
 					"defaults": [
 						{
 							"type": "will",
@@ -1107,14 +1081,21 @@
 							"modifier": -4
 						}
 					],
+					"points": 16,
+					"defaulted_from": {
+						"type": "will",
+						"modifier": -6,
+						"level": 6,
+						"adjusted_level": 6,
+						"points": -6
+					},
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "IQ+3"
 					}
 				},
 				{
-					"id": "1712ba12-6d40-4f9e-9284-6d75df42822e",
-					"type": "skill",
+					"id": "s3zji_rhx4PSZxgAb",
 					"name": "Mana to Life",
 					"reference": "B207",
 					"tags": [
@@ -1123,13 +1104,12 @@
 					"difficulty": "iq/h",
 					"points": 8,
 					"calc": {
-						"level": 12,
+						"level": 13,
 						"rsl": "IQ+1"
 					}
 				},
 				{
-					"id": "bf24c6d3-252c-4ce1-bbf5-a4f3ef84eda8",
-					"type": "skill",
+					"id": "sm-0jzngDh011erxn",
 					"name": "Telekinesis",
 					"reference": "B207",
 					"tags": [
@@ -1138,32 +1118,27 @@
 					"difficulty": "iq/h",
 					"points": 1,
 					"calc": {
-						"level": 14,
+						"level": 15,
 						"rsl": "IQ+3"
 					}
 				}
-			],
-			"open": true,
-			"name": "Magic"
+			]
 		}
 	],
 	"equipment": [
 		{
-			"id": "e511a7f2-cf91-4e71-9e3a-b10a5d398ae9",
-			"type": "equipment",
+			"id": "eOTCDowDcUcd2hQ14",
 			"description": "Smallsword",
 			"reference": "B273",
 			"tech_level": "4",
 			"tags": [
 				"Melee Weapon"
 			],
-			"quantity": 1,
 			"value": 400,
 			"weight": "1.5 lb",
 			"weapons": [
 				{
-					"id": "b496e10b-c30b-4423-a2ef-a744a5326ef8",
-					"type": "melee_weapon",
+					"id": "wY6z6-FPfkwweZWXq",
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -1214,6 +1189,7 @@
 					}
 				}
 			],
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 400,
@@ -1221,15 +1197,13 @@
 			}
 		},
 		{
-			"id": "becefdd3-5b9e-47d3-8f96-6890f2f20ee3",
-			"type": "equipment",
+			"id": "e9_Z2e2oxgskzTJeB",
 			"description": "Mage Wand (Force Telekinesis)",
 			"reference": "B273",
 			"tech_level": "4",
 			"tags": [
 				"Melee Weapon"
 			],
-			"quantity": 1,
 			"value": 400,
 			"weight": "1.5 lb",
 			"features": [
@@ -1251,6 +1225,7 @@
 					"amount": 5
 				}
 			],
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 400,
@@ -1258,17 +1233,16 @@
 			}
 		},
 		{
-			"id": "e30ee4e9-94aa-427c-8cf8-7a8cd3598664",
-			"type": "equipment",
+			"id": "eMd6nY4khQolim8ok",
 			"description": "Bandages",
 			"reference": "B289",
 			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
 			"tags": [
 				"Medical Gear"
 			],
-			"quantity": 3,
 			"value": 10,
 			"weight": "2 lb",
+			"quantity": 3,
 			"equipped": true,
 			"calc": {
 				"extended_value": 30,
@@ -1276,8 +1250,7 @@
 			}
 		},
 		{
-			"id": "b6547403-4571-471e-a614-5c2f82b39580",
-			"type": "equipment",
+			"id": "ekZoPmMDWxIc0zBHo",
 			"description": "Minor Healing Potion",
 			"reference": "DF1:29",
 			"notes": "Potion. 1d HP.",
@@ -1285,9 +1258,9 @@
 				"Concoctions",
 				"Concoctions:Potions"
 			],
-			"quantity": 3,
 			"value": 120,
 			"weight": "0.5 lb",
+			"quantity": 3,
 			"equipped": true,
 			"calc": {
 				"extended_value": 360,
@@ -1295,24 +1268,25 @@
 			}
 		},
 		{
-			"id": "008343e0-f829-4ab6-b666-0b4c76507a8f",
-			"type": "equipment",
+			"id": "ecfEecG26ApaGVYuc",
 			"description": "Leather Armor",
 			"reference": "B283",
 			"tech_level": "1",
 			"tags": [
 				"Body Armor"
 			],
-			"quantity": 1,
 			"value": 100,
 			"weight": "10 lb",
 			"features": [
 				{
 					"type": "dr_bonus",
-					"location": "all",
+					"locations": [
+						"all"
+					],
 					"amount": 2
 				}
 			],
+			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 100,
@@ -1321,7 +1295,7 @@
 		}
 	],
 	"created_date": "2024-10-23T16:57:18+02:00",
-	"modified_date": "2024-10-30T11:24:33+01:00",
+	"modified_date": "2024-11-26T18:06:27+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",
