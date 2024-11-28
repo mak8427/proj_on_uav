@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "A-0h1wGl4Wk3WYoY9",
-	"total_points": 170,
+	"total_points": 180,
 	"points_record": [
+		{
+			"when": "2024-11-28T20:03:39+01:00",
+			"points": 10,
+			"reason": "Killing bandits"
+		},
 		{
 			"when": "2024-10-23T11:35:09+02:00",
 			"points": 170,
@@ -616,6 +621,103 @@
 	],
 	"traits": [
 		{
+			"id": "tNcUyizBUgTLgmZgD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t2vba3l0J2mCZM50M"
+			},
+			"name": "Voice",
+			"reference": "B97",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 10,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "diplomacy"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fast-talk"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "mimicry"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "performance"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "politics"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "sex appeal"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "singing"
+					},
+					"amount": 2
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from others who can hear your voice",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 10
+			}
+		},
+		{
 			"id": "taJ10ik9fxE3Nx_lR",
 			"name": "Natural Attacks",
 			"reference": "B271",
@@ -1027,6 +1129,99 @@
 			"name": "General Skills",
 			"children": [
 				{
+					"id": "sWtc8hcE0lbcX1nyd",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "spGG-fpOy0g88rFDO"
+					},
+					"name": "Public Speaking",
+					"reference": "B216",
+					"tags": [
+						"Business",
+						"Scholarly",
+						"Social"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Performance",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 8,
+						"adjusted_level": 8,
+						"points": -8
+					},
+					"calc": {
+						"level": 14,
+						"rsl": "IQ+1"
+					}
+				},
+				{
+					"id": "s8zi-Z37DvNYNtOBr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGgBbCTe-AwY1nu3W"
+					},
+					"name": "Mathematics",
+					"reference": "B207",
+					"tags": [
+						"Natural Science"
+					],
+					"specialization": "Applied",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Physics",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"modifier": -5
+						}
+					],
+					"tech_level": "3",
+					"points": 4,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"calc": {
+						"level": 13,
+						"rsl": "IQ+0"
+					}
+				},
+				{
 					"id": "sf9hz78mu9zaJdUdS",
 					"name": "Writing",
 					"reference": "B224",
@@ -1169,6 +1364,23 @@
 					}
 				},
 				{
+					"id": "sX5LGfxWmKFXC-34o",
+					"name": "Alchemy",
+					"reference": "B174",
+					"tags": [
+						"Magical",
+						"Natural Science",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"tech_level": "3",
+					"points": 8,
+					"calc": {
+						"level": 13,
+						"rsl": "IQ+0"
+					}
+				},
+				{
 					"id": "sdS6XIEK7kxNtVSmB",
 					"name": "Diplomacy",
 					"reference": "B187",
@@ -1198,72 +1410,11 @@
 						"points": -7
 					},
 					"calc": {
-						"level": 13,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "sX5LGfxWmKFXC-34o",
-					"name": "Alchemy",
-					"reference": "B174",
-					"tags": [
-						"Magical",
-						"Natural Science",
-						"Occult"
-					],
-					"difficulty": "iq/vh",
-					"tech_level": "3",
-					"points": 8,
-					"calc": {
-						"level": 13,
-						"rsl": "IQ+0"
+						"level": 15,
+						"rsl": "IQ+2"
 					}
 				}
 			]
-		},
-		{
-			"id": "s8zi-Z37DvNYNtOBr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sGgBbCTe-AwY1nu3W"
-			},
-			"name": "Mathematics",
-			"reference": "B207",
-			"tags": [
-				"Natural Science"
-			],
-			"specialization": "Applied",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Physics",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Engineer",
-					"modifier": -5
-				}
-			],
-			"tech_level": "3",
-			"points": 4,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -6,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
-			},
-			"calc": {
-				"level": 13,
-				"rsl": "IQ+0"
-			}
 		}
 	],
 	"equipment": [
@@ -1392,7 +1543,7 @@
 		}
 	],
 	"created_date": "2024-10-23T11:35:09+02:00",
-	"modified_date": "2024-11-18T21:49:33+01:00",
+	"modified_date": "2024-11-28T20:43:07+01:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
