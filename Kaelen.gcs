@@ -1524,8 +1524,24 @@
 			}
 		}
 	],
+	"notes": [
+		{
+			"id": "Nam1BfOYAQiWDXBEG",
+			"text": "Note Container",
+			"children": [
+				{
+					"id": "nDMfTi1SfVviePIqJ",
+					"text": "Compartmentalised Mind 1/100"
+				},
+				{
+					"id": "n2VVrXME-rWnYxMcj",
+					"text": "Speed-Reading 10/50"
+				}
+			]
+		}
+	],
 	"created_date": "2024-10-23T11:35:09+02:00",
-	"modified_date": "2024-11-28T21:24:36+01:00",
+	"modified_date": "2024-11-28T22:34:37+01:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
