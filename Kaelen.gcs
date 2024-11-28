@@ -621,103 +621,6 @@
 	],
 	"traits": [
 		{
-			"id": "tNcUyizBUgTLgmZgD",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "t2vba3l0J2mCZM50M"
-			},
-			"name": "Voice",
-			"reference": "B97",
-			"tags": [
-				"Advantage",
-				"Physical"
-			],
-			"base_points": 10,
-			"features": [
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "diplomacy"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "fast-talk"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "starts_with",
-						"qualifier": "mimicry"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "performance"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "politics"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "public speaking"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "sex appeal"
-					},
-					"amount": 2
-				},
-				{
-					"type": "skill_bonus",
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "singing"
-					},
-					"amount": 2
-				},
-				{
-					"type": "reaction_bonus",
-					"situation": "from others who can hear your voice",
-					"amount": 2
-				}
-			],
-			"calc": {
-				"points": 10
-			}
-		},
-		{
 			"id": "taJ10ik9fxE3Nx_lR",
 			"name": "Natural Attacks",
 			"reference": "B271",
@@ -814,6 +717,85 @@
 			],
 			"calc": {
 				"points": 0
+			}
+		},
+		{
+			"id": "tMLeXCLAx0hzz7TQs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "t2vba3l0J2mCZM50M"
+			},
+			"name": "Voice",
+			"reference": "B97",
+			"tags": [
+				"Advantage",
+				"Physical"
+			],
+			"base_points": 7,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "diplomacy"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fast-talk"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "mimicry"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "performance"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "politics"
+					},
+					"amount": 2
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					},
+					"amount": 2
+				},
+				{
+					"type": "reaction_bonus",
+					"situation": "from others who can hear your voice",
+					"amount": 2
+				}
+			],
+			"calc": {
+				"points": 7
 			}
 		},
 		{
@@ -1543,7 +1525,7 @@
 		}
 	],
 	"created_date": "2024-10-23T11:35:09+02:00",
-	"modified_date": "2024-11-28T20:43:07+01:00",
+	"modified_date": "2024-11-28T21:24:36+01:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
