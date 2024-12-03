@@ -1,11 +1,17 @@
 {
 	"version": 5,
 	"id": "AvoYCKKAiinABOHwN",
-	"total_points": 285,
+	"total_points": 295,
 	"points_record": [
 		{
+			"when": "2024-12-03T13:52:18+01:00",
+			"points": 10,
+			"reason": "Barbarians"
+		},
+		{
 			"when": "2024-11-26T16:41:42+01:00",
-			"points": 10
+			"points": 10,
+			"reason": "second session"
 		},
 		{
 			"when": "2024-10-23T16:57:18+02:00",
@@ -2016,6 +2022,142 @@
 	],
 	"equipment": [
 		{
+			"id": "EyeaoaGXM0_GV98Zm",
+			"description": "Potions",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e0dXSkq2-th3t-BpJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "e1c5o-7bTH0HJAcww"
+					},
+					"description": "Potion: Invisibility",
+					"reference": "M216",
+					"tags": [
+						"Potion"
+					],
+					"value": 3000,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 3000,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "esZZJGY2XaCfIogTh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "eGfHvgytvbU3A98Xq"
+					},
+					"description": "Potion Mana",
+					"reference": "M215",
+					"tags": [
+						"Potion"
+					],
+					"value": 2000,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eRwUKzPlxa77ThSB4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "e-gVIigGs6DEj1NuF"
+					},
+					"description": "Potion of Darkvision",
+					"reference": "M215",
+					"tags": [
+						"Ointment"
+					],
+					"value": 200,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eEx_3wi-Sbxwh9zZh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Recovery",
+					"reference": "M217",
+					"notes": "FP recover",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ecGFeq-FeW4GAvSKq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Healing",
+					"reference": "M217",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 2,
+					"equipped": true,
+					"calc": {
+						"extended_value": 240,
+						"extended_weight": "0.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5560,
+				"extended_weight": "1.45 lb"
+			}
+		},
+		{
+			"id": "eeBjYQkqwaUiUYkrf",
+			"description": "Bear Trap",
+			"reference": "HT58",
+			"notes": "Grapples leg with ST 15; Gives +1 to survival when trapping; Damage 1d+3 crushing to leg.",
+			"tags": [
+				"General Equipment"
+			],
+			"value": 75,
+			"weight": "35 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
 			"id": "eVpDzhVU-5JIqbhw5",
 			"description": "Composite Enchanted Bow",
 			"reference": "B275",
@@ -2064,57 +2206,6 @@
 			"calc": {
 				"extended_value": 2000,
 				"extended_weight": "4 lb"
-			}
-		},
-		{
-			"id": "eOxE-2eLE1RC8jykB",
-			"description": "Torch",
-			"reference": "B288",
-			"notes": "Burns for 1 hour",
-			"tags": [
-				"Camping and Survival Gear"
-			],
-			"value": 3,
-			"weight": "1 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 3,
-				"extended_weight": "1 lb"
-			}
-		},
-		{
-			"id": "eeBjYQkqwaUiUYkrf",
-			"description": "Bear Trap",
-			"reference": "HT58",
-			"notes": "Grapples leg with ST 15; Gives +1 to survival when trapping; Damage 1d+3 crushing to leg.",
-			"tags": [
-				"General Equipment"
-			],
-			"value": 75,
-			"weight": "35 lb",
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 75,
-				"extended_weight": "35 lb"
-			}
-		},
-		{
-			"id": "eN-Gk3XF1H-i1I26h",
-			"description": "Snack",
-			"reference": "HT35",
-			"notes": "A high-carbohydrate snack restoring +1 FP; see Recovering from Fatigue (p. B427). The GM may let those who don’t rest regain 1 FP but dock them 2 FP two hours later.",
-			"tags": [
-				"Food"
-			],
-			"value": 2,
-			"weight": "0.25 lb",
-			"quantity": 4,
-			"equipped": true,
-			"calc": {
-				"extended_value": 8,
-				"extended_weight": "1 lb"
 			}
 		},
 		{
@@ -2239,10 +2330,54 @@
 				"extended_value": 340,
 				"extended_weight": "19.5 lb"
 			}
+		},
+		{
+			"id": "eN-Gk3XF1H-i1I26h",
+			"description": "Snack",
+			"reference": "HT35",
+			"notes": "A high-carbohydrate snack restoring +1 FP; see Recovering from Fatigue (p. B427). The GM may let those who don’t rest regain 1 FP but dock them 2 FP two hours later.",
+			"tags": [
+				"Food"
+			],
+			"value": 2,
+			"weight": "0.25 lb",
+			"quantity": 4,
+			"equipped": true,
+			"calc": {
+				"extended_value": 8,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eOxE-2eLE1RC8jykB",
+			"description": "Torch",
+			"reference": "B288",
+			"notes": "Burns for 1 hour",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 3,
+			"weight": "1 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3,
+				"extended_weight": "1 lb"
+			}
+		}
+	],
+	"notes": [
+		{
+			"id": "nibRonp6zC5PCWwAX",
+			"text": "Learning Bow Skill 14 out of 400"
+		},
+		{
+			"id": "nf46l5kSplz1_gCTo",
+			"text": "Gold:    50"
 		}
 	],
 	"created_date": "2024-10-23T16:57:18+02:00",
-	"modified_date": "2024-11-26T18:12:43+01:00",
+	"modified_date": "2024-12-03T13:52:00+01:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",

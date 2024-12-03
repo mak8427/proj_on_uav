@@ -1,11 +1,17 @@
 {
 	"version": 5,
 	"id": "AfOOUvSY6-OOiJ9Jn",
-	"total_points": 160,
+	"total_points": 170,
 	"points_record": [
 		{
+			"when": "2024-12-03T13:53:43+01:00",
+			"points": 10,
+			"reason": "Barbarian attack"
+		},
+		{
 			"when": "2024-11-26T16:41:24+01:00",
-			"points": 10
+			"points": 10,
+			"reason": "Second Session"
 		},
 		{
 			"when": "2024-10-23T16:57:18+02:00",
@@ -1138,7 +1144,7 @@
 			"weight": "1.5 lb",
 			"weapons": [
 				{
-					"id": "wY6z6-FPfkwweZWXq",
+					"id": "wgCSn_BVDL9iSd-tx",
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -1151,7 +1157,7 @@
 					"defaults": [
 						{
 							"type": "dx",
-							"modifier": -5
+							"modifier": 3
 						},
 						{
 							"type": "skill",
@@ -1183,9 +1189,9 @@
 						}
 					],
 					"calc": {
-						"level": 3,
+						"level": 11,
 						"damage": "1d-1 imp",
-						"parry": "4F"
+						"parry": "8F"
 					}
 				}
 			],
@@ -1194,6 +1200,115 @@
 			"calc": {
 				"extended_value": 400,
 				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "e5G4ov2wpwfYGLT1X",
+			"description": "Mossy Sealed Water",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EABzm3C6ItH2D9uVY",
+			"description": "Potions",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eodx-_JlJzFxEqOD7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Recovery",
+					"reference": "M217",
+					"notes": "FP recover",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eXJx8OAuBfE7Jb_M_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Healing",
+					"reference": "M217",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "evTHpuUNHR34hJVf3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "e-gVIigGs6DEj1NuF"
+					},
+					"description": "Potion of Darkvision",
+					"reference": "M215",
+					"tags": [
+						"Ointment"
+					],
+					"value": 200,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eF_Vd-4jc2kbvbVoC",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "eGfHvgytvbU3A98Xq"
+					},
+					"description": "Mana Potion",
+					"reference": "M215",
+					"tags": [
+						"Potion"
+					],
+					"value": 2000,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "0.25 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 2440,
+				"extended_weight": "0.95 lb"
 			}
 		},
 		{
@@ -1233,41 +1348,6 @@
 			}
 		},
 		{
-			"id": "eMd6nY4khQolim8ok",
-			"description": "Bandages",
-			"reference": "B289",
-			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
-			"tags": [
-				"Medical Gear"
-			],
-			"value": 10,
-			"weight": "2 lb",
-			"quantity": 3,
-			"equipped": true,
-			"calc": {
-				"extended_value": 30,
-				"extended_weight": "6 lb"
-			}
-		},
-		{
-			"id": "ekZoPmMDWxIc0zBHo",
-			"description": "Minor Healing Potion",
-			"reference": "DF1:29",
-			"notes": "Potion. 1d HP.",
-			"tags": [
-				"Concoctions",
-				"Concoctions:Potions"
-			],
-			"value": 120,
-			"weight": "0.5 lb",
-			"quantity": 3,
-			"equipped": true,
-			"calc": {
-				"extended_value": 360,
-				"extended_weight": "1.5 lb"
-			}
-		},
-		{
 			"id": "ecfEecG26ApaGVYuc",
 			"description": "Leather Armor",
 			"reference": "B283",
@@ -1292,10 +1372,51 @@
 				"extended_value": 100,
 				"extended_weight": "10 lb"
 			}
+		},
+		{
+			"id": "eMd6nY4khQolim8ok",
+			"description": "Bandages",
+			"reference": "B289",
+			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 10,
+			"weight": "2 lb",
+			"quantity": 3,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "6 lb"
+			}
+		}
+	],
+	"notes": [
+		{
+			"id": "n-9S4REcA1a_QH6Hx",
+			"text": "Gold 48.8 "
+		},
+		{
+			"id": "nCxT8q5G0c3SHITmM",
+			"text": "Personal Family estimated Heritage  : 500k ~ 1000k Gold"
+		},
+		{
+			"id": "N74gauqn76aL94XSv",
+			"text": "Studying\n",
+			"children": [
+				{
+					"id": "n4Toz1DdW0x75-3e4",
+					"text": "TelePrecision 15 / 100"
+				},
+				{
+					"id": "nG2uHBy8Gly5ajV3H",
+					"text": "Force Fall 0 / 100"
+				}
+			]
 		}
 	],
 	"created_date": "2024-10-23T16:57:18+02:00",
-	"modified_date": "2024-11-26T18:06:27+01:00",
+	"modified_date": "2024-12-03T13:59:27+01:00",
 	"calc": {
 		"swing": "1d-1",
 		"thrust": "1d-2",

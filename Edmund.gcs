@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "Ac9g_p1CyvH16nlqY",
-	"total_points": 285,
+	"total_points": 295,
 	"points_record": [
+		{
+			"when": "2024-12-03T13:39:44+01:00",
+			"points": 10,
+			"reason": "barbarians"
+		},
 		{
 			"when": "2024-11-19T16:50:48+01:00",
 			"points": 10,
@@ -1621,9 +1626,9 @@
 				"type": "skill",
 				"name": "Shadowing",
 				"modifier": -5,
-				"level": 7,
-				"adjusted_level": 7,
-				"points": -7
+				"level": 8,
+				"adjusted_level": 8,
+				"points": -8
 			},
 			"calc": {
 				"level": 11,
@@ -1791,7 +1796,7 @@
 					"modifier": -5
 				}
 			],
-			"points": 8,
+			"points": 12,
 			"defaulted_from": {
 				"type": "dx",
 				"modifier": -5,
@@ -1800,18 +1805,18 @@
 				"points": -9
 			},
 			"calc": {
-				"level": 15,
-				"rsl": "DX+2"
+				"level": 16,
+				"rsl": "DX+3"
 			}
 		},
 		{
 			"id": "sRhJsopelvEt1Z-hD",
 			"name": "Invisibility Spell",
 			"difficulty": "iq/vh",
-			"points": 20,
+			"points": 24,
 			"calc": {
-				"level": 13,
-				"rsl": "IQ+3"
+				"level": 14,
+				"rsl": "IQ+4"
 			}
 		},
 		{
@@ -1911,13 +1916,13 @@
 				"type": "skill",
 				"name": "Stealth",
 				"modifier": -4,
-				"level": 11,
-				"adjusted_level": 11,
-				"points": 4
+				"level": 12,
+				"adjusted_level": 12,
+				"points": 8
 			},
 			"calc": {
-				"level": 12,
-				"rsl": "IQ+2"
+				"level": 13,
+				"rsl": "IQ+3"
 			}
 		},
 		{
@@ -2005,19 +2010,100 @@
 			}
 		},
 		{
-			"id": "ebGshUQ9Vmg4cCDuK",
-			"description": "Clothing, Ordinary, Freeman (Status 0)",
-			"reference": "LT98",
-			"tech_level": "0",
-			"tags": [
-				"Clothing"
-			],
-			"weight": "2 lb",
+			"id": "EVwe9vzXwatHOPwGo",
+			"description": "Potions",
+			"legality_class": "4",
 			"quantity": 1,
 			"equipped": true,
+			"children": [
+				{
+					"id": "eSLO9o9hrnwtoSndG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "eGfHvgytvbU3A98Xq"
+					},
+					"description": "Potion: Death",
+					"reference": "M215",
+					"tags": [
+						"Potion"
+					],
+					"value": 500,
+					"weight": "0.25 lb",
+					"quantity": 3,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1500,
+						"extended_weight": "0.75 lb"
+					}
+				},
+				{
+					"id": "eH-_q57Dx_MMqGfI9",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "e-gVIigGs6DEj1NuF"
+					},
+					"description": "Ointment: Madness",
+					"reference": "M215",
+					"tags": [
+						"Ointment"
+					],
+					"value": 200,
+					"weight": "0.2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "eFa6wz3PhU_xVr-t4",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Healing",
+					"reference": "M217",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eMrSm32NJjLaVIMqn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic\\Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Healing",
+					"reference": "M217",
+					"tags": [
+						"Potion"
+					],
+					"value": 120,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "0.25 lb"
+					}
+				}
+			],
 			"calc": {
-				"extended_value": 0,
-				"extended_weight": "2 lb"
+				"extended_value": 1940,
+				"extended_weight": "1.45 lb"
 			}
 		},
 		{
@@ -2267,95 +2353,150 @@
 			}
 		},
 		{
-			"id": "e39LA8vlY3TXV0zyN",
-			"description": "Heavy Leather Leggings",
-			"reference": "B283",
-			"tech_level": "1",
-			"tags": [
-				"Limb Armor"
-			],
-			"value": 60,
-			"weight": "4 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"locations": [
-						"leg"
-					],
-					"amount": 2
-				}
-			],
+			"id": "ElMQrvFVRMvtBDSSf",
+			"description": "Armor Set",
+			"legality_class": "4",
 			"quantity": 1,
 			"equipped": true,
-			"calc": {
-				"extended_value": 60,
-				"extended_weight": "4 lb"
-			}
-		},
-		{
-			"id": "e0PNBL1psti9DL5nO",
-			"description": "Heavy Leather Sleeves",
-			"reference": "B283",
-			"tech_level": "1",
-			"tags": [
-				"Limb Armor"
-			],
-			"value": 50,
-			"weight": "2 lb",
-			"features": [
+			"children": [
 				{
-					"type": "dr_bonus",
-					"locations": [
-						"arm"
+					"id": "ebGshUQ9Vmg4cCDuK",
+					"description": "Clothing, Ordinary, Freeman (Status 0)",
+					"reference": "LT98",
+					"tech_level": "0",
+					"tags": [
+						"Clothing"
 					],
-					"amount": 2
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 50,
-				"extended_weight": "2 lb"
-			}
-		},
-		{
-			"id": "eE8DXO_mysCG0hfdj",
-			"description": "Leather Armor",
-			"reference": "B283",
-			"tech_level": "1",
-			"tags": [
-				"Body Armor"
-			],
-			"value": 100,
-			"weight": "10 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"locations": [
-						"torso"
-					],
-					"amount": 2
+					"weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "2 lb"
+					}
 				},
 				{
-					"type": "dr_bonus",
-					"locations": [
-						"vitals"
+					"id": "e39LA8vlY3TXV0zyN",
+					"description": "Heavy Leather Leggings",
+					"reference": "B283",
+					"tech_level": "1",
+					"tags": [
+						"Limb Armor"
 					],
-					"amount": 2
+					"value": 60,
+					"weight": "4 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"leg"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "4 lb"
+					}
 				},
 				{
-					"type": "dr_bonus",
-					"locations": [
-						"groin"
+					"id": "eE8DXO_mysCG0hfdj",
+					"description": "Leather Armor",
+					"reference": "B283",
+					"tech_level": "1",
+					"tags": [
+						"Body Armor"
 					],
-					"amount": 2
+					"value": 100,
+					"weight": "10 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"torso"
+							],
+							"amount": 2
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"vitals"
+							],
+							"amount": 2
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"groin"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "eQuahEf5iDOAaMRrE",
+					"description": "Shoes",
+					"reference": "B284",
+					"tech_level": "1",
+					"tags": [
+						"Footwear"
+					],
+					"value": 40,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 1
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "e0PNBL1psti9DL5nO",
+					"description": "Heavy Leather Sleeves",
+					"reference": "B283",
+					"tech_level": "1",
+					"tags": [
+						"Limb Armor"
+					],
+					"value": 50,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
 				}
 			],
-			"quantity": 1,
-			"equipped": true,
 			"calc": {
-				"extended_value": 100,
-				"extended_weight": "10 lb"
+				"extended_value": 250,
+				"extended_weight": "20 lb"
 			}
 		},
 		{
@@ -2428,56 +2569,6 @@
 			}
 		},
 		{
-			"id": "eOE3Ksz2x0_BxqUfu",
-			"description": "Oozing Doom",
-			"reference": "DF1:29",
-			"notes": "Grenade. Contact Agent. DR sec to penetrate.",
-			"tags": [
-				"Concoctions",
-				"Concoctions:Poisons"
-			],
-			"value": 100,
-			"weight": "1 lb",
-			"weapons": [
-				{
-					"id": "WxzhwNuqfaLJvIElb",
-					"damage": {
-						"type": "inj, 1d on HT roll",
-						"base": "2d"
-					},
-					"usage": "Grenade",
-					"range": "x2",
-					"bulk": "-2",
-					"defaults": [
-						{
-							"type": "skill",
-							"name": "Throwing"
-						},
-						{
-							"type": "dx",
-							"modifier": -3
-						},
-						{
-							"type": "skill",
-							"name": "Dropping",
-							"modifier": -4
-						}
-					],
-					"calc": {
-						"level": 11,
-						"damage": "2d inj, 1d on HT roll",
-						"range": "20"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 100,
-				"extended_weight": "1 lb"
-			}
-		},
-		{
 			"id": "evMQGOxpHI5PoZCpK",
 			"description": "Pistol Crossbow",
 			"reference": "LT72",
@@ -2526,36 +2617,20 @@
 				"extended_value": 150,
 				"extended_weight": "4 lb"
 			}
+		}
+	],
+	"notes": [
+		{
+			"id": "n_PVsEyUEojNlVPlT",
+			"text": "Gold:    50"
 		},
 		{
-			"id": "eQuahEf5iDOAaMRrE",
-			"description": "Shoes",
-			"reference": "B284",
-			"tech_level": "1",
-			"tags": [
-				"Footwear"
-			],
-			"value": 40,
-			"weight": "2 lb",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"locations": [
-						"foot"
-					],
-					"amount": 1
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"extended_value": 40,
-				"extended_weight": "2 lb"
-			}
+			"id": "nRrbXv7l8cPVEegqf",
+			"text": "Studying Assasin's Blade skill 10 / 400"
 		}
 	],
 	"created_date": "2024-05-20T20:30:02+02:00",
-	"modified_date": "2024-11-26T16:40:14+01:00",
+	"modified_date": "2024-12-03T14:04:56+01:00",
 	"calc": {
 		"swing": "1d",
 		"thrust": "1d-2",
